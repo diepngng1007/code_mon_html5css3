@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="./css/products.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .header_right.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container m-auto">
+        <!-- header -->
+        <div class="flex justify-between md:flex md:justify-between pt-5">
+            <div class="font-bold pl-[15px] text-xl">
+                <h5 class="xl:text-[35px]">Fudo<span class="text-[#F54748]">.</span></h5>
+            </div>
+            <!-- header-left -->
+            <div class="flex items-center mx-0 mr-2">
+                <div class="header_right absolute left-0 bg-red-100 min-h-[60vh] top-[10%] w-full flex items-center px-5 hidden">
+                    <ul class="leading-[50px] flex-col items-center gap-[4vw] text-center mt-[70px]">
+                        <li class="hover:text-[#F54748] font-semibold"><a href="./home.html">Home</a></li>
+                        <li class="hover:text-[#F54748] font-semibold"><a href="./product.html">Products</a></li>
+                        <li class="hover:text-[#F54748] font-semibold"><a href="./product.html">About Us</a></li>
+                        <li class="hover:text-[#F54748] font-semibold"><a href="./detail.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="hidden md:block xl:block">
+                    <ul class="flex ">
+                        <li class="hover:text-[#F54748] pl-4 font-semibold"><a href="./home.html">Home</a></li>
+                        <li class="hover:text-[#F54748] pl-4 font-semibold"><a href="./product.html">Products</a></li>
+                        <li class="hover:text-[#F54748] pl-4 font-semibold"><a href="./product.html">About Us</a></li>
+                        <li class="hover:text-[#F54748] pl-4 font-semibold"><a href="./detail.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="flex mt-0 justify-between items-center gap-2 pl-4">
+                    <div class="mt-0.5">
+                        <a href="./login.html">
+                            <button class="px-3 py-2 bg-white w-[84px] h-[42px] rounded-md text-black border-[#F54748] border-solid border-2 cursor-pointer text-[#F54748]">Sign In</button>
+                        </a>
+                        
+                    </div>
+                    <div class="mt-0.5">
+                        <a href="./signUp.html">
+                            <button class="px-3 py-2 bg-[#F54748] w-[84px] h-[42px] rounded-md text-white cursor-pointer">Sign Up</button>
+                        </a>
+                    </div>
+                    
+                </div>
+                <i class="fa-solid fa-bars text-3xl cursor-pointer ml-2 block md:hidden xl:hidden"></i>
+            </div>
+            <!-- header-right -->
+        </div>
+        <div class="mt-[30px]">
+            <img src="./imgs/Rectangle 1372.png" alt="" class="w-full">
+        </div>
+        <div class="mt-[50px] flex">
+            <div class="ml-[20px] mr-[20px] leading-10 font-bold md:ml-[50px]">
+                <ul class="hover:underline">
+                    <li><a href="#">Breakfast</a></li>
+                    <li><a href="#">Vegan</a></li>
+                    <li><a href="#">Meat</a></li>
+                    <li><a href="#">Dessert</a></li>
+                    <li><a href="#">Lunch</a></li>
+                    <li><a href="#">Chocolate</a></li>
+                </ul>
+            </div>
+            <div class="md:ml-[120px]">
+                <div class="md:grid md:grid-cols-2 md:gap-6 xl:grid xl:grid-cols-3 xl:ml-[50px]">
+                    <div class="font-bold text-[15px] mb-[40px] mr-3">
+                        <img src="./imgs/image 26 (3).png" alt="" class="w-[300px] rounded-2xl">
+                        <div class="pt-[20px] pb-[10px] hover:underline">
+                        <p>Fresh and Healthy Mixed <br> Mayonnaise Salad</p>
+                        </div>
+                        <strong class="pb-[10px] text-red-500 text-[20px] hover:underline">$30</strong> <br>
+                        <button class="w-full h-[40px] bg-black text-white text-[15px] rounded-md mt-[20px]">Add To Cart</button>
+                    </div>
+                    <div class="font-bold text-[15px] mb-[40px] mr-3">
+                        <img src="./imgs/image 26 (4).png" alt="" class="w-[300px] rounded-2xl">
+                        <div class="pt-[20px] pb-[10px] hover:underline">
+                            <p>The Creamiest Creamy Chicken</p>
+                        </div>
+                        <strong class="pb-[10px] text-red-500 text-[20px] hover:underline">$30</strong> <br>
+                        <button class="w-full h-[40px] bg-black text-white text-[15px] rounded-md mt-[20px] md:mt-[42px]">Add To Cart</button>
+                    </div>
+                    <div class="font-bold text-[15px] mb-[40px] mr-3">
+                        <img src="./imgs/image 26 (5).png" alt="" class="w-[300px] rounded-2xl">
+                        <div class="pt-[20px] pb-[10px] hover:underline">
+                            <p class="">Fruity Pancake with Orange & <br> Blueberry</p>
+                        </div>
+                        <strong class="pb-[10px] text-red-500 text-[20px] hover:underline">$30</strong> <br>
+                        <button class="w-full h-[40px] bg-black text-white text-[15px] rounded-md mt-[20px]">Add To Cart</button>
+                    </div>
+                </div>  
+                <div class="md:grid md:grid-cols-2 md:gap-6 xl:grid xl:grid-cols-3 xl:ml-[50px]">
+                    <div class="font-bold text-[15px] mb-[40px] mr-3">
+                        <img src="./imgs/image 26 (3).png" alt="" class="w-[300px] rounded-2xl">
+                        <div class="pt-[20px] pb-[10px] hover:underline">
+                            <p>Fresh and Healthy Mixed <br> Mayonnaise Salad</p>
+                        </div>
+                        <strong class="pb-[10px] text-red-500 text-[20px] hover:underline">$30</strong> <br>
+                        <button class="w-full h-[40px] bg-black text-white text-[15px] rounded-md mt-[20px]">Add To Cart</button>
+                    </div>
+                    <div class="font-bold text-[15px] mb-[40px] mr-3">
+                        <img src="./imgs/image 26 (4).png" alt="" class="w-[300px] rounded-2xl">
+                        <div class="pt-[20px] pb-[10px] hover:underline">
+                            <p>The Creamiest Creamy Chicken</p>
+                        </div>
+                        <strong class="pb-[10px] text-red-500 text-[20px] hover:underline">$30</strong> <br>
+                        <button class="w-full h-[40px] bg-black text-white text-[15px] rounded-md mt-[20px] md:mt-[42px]">Add To Cart</button>
+                    </div>
+                    <div class="font-bold text-[15px] mb-[40px] mr-3">
+                        <img src="./imgs/image 26 (5).png" alt="" class="w-[300px] rounded-2xl">
+                        <div class="pt-[20px] pb-[10px] hover:underline">
+                            <p>Fruity Pancake with Orange & <br> Blueberry</p>
+                        </div>
+                        <strong class="pb-[10px] text-red-500 text-[20px] hover:underline">$30</strong> <br>
+                        <button class="w-full h-[40px] bg-black text-white text-[15px] rounded-md mt-[20px]">Add To Cart</button>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <hr>
+        <div class="flex justify-between items-center h-[50px] mt-2 md:h-[80px] md:mt-6">
+            <div class="font-bold text-[20px] pl-3">
+                <h5>Fudo.</h5>
+            </div>
+            <div class="">
+                <ul class="space-x-2 pr-[10px]">
+                    <li class="inline-block hover:text-[#F54748] font-semibold"><a href="#">Home</a></li>
+                    <li class="inline-block hover:text-[#F54748] font-semibold"><a href="#">Products</a></li>
+                    <li class="inline-block hover:text-[#F54748] font-semibold"><a href="#">About Us</a></li>
+                    <li class="inline-block hover:text-[#F54748] font-semibold"><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        const clickBars = document.querySelector('.fa-solid');
+        const navbar = document.querySelector('.header_right');
+        console.log(clickBars, navbar);
+        clickBars.addEventListener('click', function() {
+        navbar.classList.toggle('active');
+    });
+    </script>
+</body>
+</html>

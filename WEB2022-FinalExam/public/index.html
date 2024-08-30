@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://fonts.google.com/specimen/Roboto"></script>
+    <style>
+        .menu.active{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container w-full mx-auto">
+        <div class="flex items-center justify-between m-5">
+            <div class="m-5 logo xl:m-5 md:m-3 "> 
+                <a href="">
+                    <img src="./img/1.png" alt="" class="w-[100px]">
+                </a>
+            </div>
+            <!-- menu pc,tablet -->
+            <div class="hidden xl:block md:block">
+                <ul class="space-x-5 font-bold">
+                    <li class="inline-block text-[#AD5727]"><a href="index.html">Home</a></li>
+                    <li class="inline-block hover:underline"><a href="index.html">Pages</a></li>
+                    <li class="inline-block hover:underline "><a href="index.html">Articles</a></li>
+                    <li class="inline-block hover:underline"><a href="index.html">Contact</a></li>
+                    <li class="inline-block hover:underline"><a href="index.html">Shop</a></li>
+                    <li class="inline-block hover:underline"><a href="index.html">Locations</a></li>
+                </ul>
+            </div>
+            <!-- menu mobile -->
+            <div class=" menu xl:hidden md:hidden absolute space-x-5 font-bold bg-[#b89d8a] w-full top-[9%] left-0 h-[60%] px-[80px] py-[100px]  hidden">
+                <ul class="leading-[50px]">
+                    <li class="text-[#AD5727]"><a href="index.html">Home</a></li>
+                    <li class=""><a href="index.html">Pages</a></li>
+                    <li class=""><a href="index.html">Articles</a></li>
+                    <li class=""><a href="index.html">Contact</a></li>
+                    <li class=""><a href="index.html">Shop</a></li>
+                    <li class=""><a href="index.html">Locations</a></li>
+                </ul>
+            </div>
+            <img src="./img/Vector (1).png" alt="" class="m-5 bars xl:hidden md:hidden">
+        </div>
+        <div class=" banner xl:flex xl:justify-between xl:mt-[30px] md:block md:flex md:justify-between">
+            <div class="m-5 img">
+                <a href="index.html">
+                    <img src="./img/2.png" alt="" class="md:w-[490px] xl:w-[600px]">
+                </a>
+            </div>
+            <div class="chu xl:my-[210px] xl:mx-[200px] text-center md:my-[135px] md:mx-[110px]">
+                <a href="index.html" class="hover:underline">
+                    <h5 class="text-[#BB7E52] text-[14px] leading-[60px]">BECOME A PARTNER</h5>
+                <h1 class="md:text-[30px] xl:text-[50px] font-bold text-[30px]">Explore Wholesale</h1>
+                <p class="text-[16px] text-[#9C9C9C] leading-[40px]">We help build coffee programs to grow</p>
+                <button class="w-[150px] h-[50px] border-2 border-solid border-[#BB7E52] text-[#BB7E52] mt-[20px]">Sign Up</button>
+                </a>
+            </div>
+        </div>
+        <div class="hidden text-center title xl:block md:block leading-[32px] md:mt-[50px]">
+            <a href="index.html">
+                <p class="text-[14px] text-[#BB7E52] hover:underline">GREAT COFFEE IS OUR PASSION</p>
+            <h3 class="text-[35px] font-bold hover:underline">This month’s favorites</h3>
+            </a>
+        </div>
+        <div class="content md:m-5 mt-[50px] m-5 md:mt-10">
+            <div class="content-items xl:grid xl:grid-cols-3 xl:mt-[50px] xl:gap-[40px] md:grid md:grid-cols-2 md:gap-[40px]">
+                <div class="mb-10 img">
+                    <a href="index.html">
+                        <img src="./img/3.png" alt="" class="xl:w-[500px] md:w-[500px] w-full">
+                    <p class="text-center text-[14px] text-[#BB7E52] mt-[30px] hover:underline">HOME DELIVERY</p>
+                    <h4 class="text-center xl:text-[32px] text-[#3A3A3A] font-bold px-10 hover:underline md:text-[25px] text-[20px]">Quality coffee delivered to your door</h4>
+                    </a>
+                </div>
+                <div class="mb-10 img">
+                    <a href="index.html">
+                        <img src="./img/4.png" alt="" class="xl:w-[500px] md:w-[500px] w-full">
+                    <p class="text-center text-[14px] text-[#BB7E52] mt-[30px] hover:underline">OUR MISSION</p>
+                    <h4 class="text-center xl:text-[32px] text-[#3A3A3A] font-bold hover:underline md:text-[25px] text-[20px]">It all began with a modest concept</h4>
+                    </a>
+                </div>
+                <div class="img">
+                    <a href="index.html">
+                        <img src="./img/5.png" alt="" class="xl:w-[500px] md:w-[500px] w-full">
+                    <p class="text-center text-[14px] text-[#BB7E52] mt-[30px] hover:underline">TIME TO CHILL</p>
+                    <h4 class="text-center xl:text-[32px] text-[#3A3A3A] font-bold hover:underline md:text-[25px] text-[20px]">Black Coffee Shaved Ice</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="btn xl:flex xl:justify-center xl:mt-[50px] md:flex md:justify-center md:mt-[50px] flex justify-center">
+                <button class="w-[150px] h-[50px] border-2 border-solid border-[#BB7E52] text-[#BB7E52] mt-[20px]">View All Coffee</button>
+            </div>
+        </div>
+        <hr class="xl:mt-[50px] border-2 border-solid border-[#cecdcd] md:mt-[50px] m-5">
+        <div class="fooster xl:flex xl:justify-between items-center h-[100px] mb-[80px] md:flex md:justify-between">
+            <div class="flex justify-center mt-10 logo md:ml-5">
+                <img src="./img/1.png" alt="" class="w-[120px]">
+            </div>
+            <div class="mt-[50px] flex justify-center m-5">
+                <input type="text" placeholder="Enter Email..." class="w-[350px] h-[50px] border-2 border-solid border-gray-400 placeholder:pl-5 mr-3">
+                <button class="w-[150px] h-[50px] bg-[#3A3A3A] text-white">Sign Up</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        const Navbar = document.querySelector('.menu');
+        const Bars = document.querySelector('.bars');
+        console.log(Navbar,Bars)
+        Bars.addEventListener('click' , ()=>{
+            Navbar.classList.toggle('active');
+        })
+    </script>
+</body>
+</html>

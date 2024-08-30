@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <canvas id="myCanvas" width="200" height="100"></canvas>
+            </div>
+            <div class="input">
+                <input type="text">
+                <button>Tìm kiếm</button>
+            </div>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li>
+                    <a href="#">Trang chủ</a>
+                    <a href="#">Giới thiệu</a>
+                    <a href="#">Hỏi đáp</a>
+                    <a href="#">Liên hệ</a>
+                    <a href="#">Đặt hàng</a>
+                </li>
+            </ul>
+        </div>
+        <div class="banner">
+            <img src="./img/banner.jpg" alt="">
+        </div>
+        <div class="news">
+            <div class="left">
+                <a href="#">
+                    <img src="./img/all.webp" alt="">
+                </a>
+            </div>
+            <div class="right">
+                <h2>ĐỒ ĂN VẶT</h2>
+                <p>Món ăn mà các bạn trẻ ai cũng yêu thích vì giá học sinh sinh viên</p>
+                <a href="#">Xem tiếp...</a>
+            </div>
+        </div>
+        <div class="title"><h1>SẢN PHẨM HOT</h1></div>
+        <div class="project">
+            <div class="content">
+                <img src="./img/1.jpg" alt="">
+                <div class="price">
+                    <strong>Khô cá thiều que</strong>
+                    <p>Giá: 120.000 đ</p>
+                </div>
+            </div>
+            <div class="content">
+                <img src="./img/2.jpg" alt="">
+                <div class="price">
+                    <strong>Cơm cháy chà bông</strong>
+                    <p>Giá: 120.000 đ</p>
+                </div>
+            </div>
+            <div class="content">
+                <img src="./img/3.jpg" alt="">
+                <div class="price">
+                    <strong>Bimbim tăm</strong>
+                    <p>Giá: 120.000 đ</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Cửa hàng chuyên phân phối đồ ăn vặt giá rẻ</p>
+            <p>Địa chỉ: Hà Nội. Điện thoại: 0123456789</p>
+            <p>Email: ngocdiep20033@gmail.com</p>
+        </div>
+    </div>
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.font = "35px Arial";
+        ctx.fillStyle = "blue";
+        ctx.fillText("Fast food", 10, 50);
+    </script>
+</body>
+</html>

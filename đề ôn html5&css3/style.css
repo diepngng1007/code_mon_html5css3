@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: Duepuntozero;
+    src:url(/font/UTM\ Duepuntozero.ttf);
+}
+body{
+    background-color: #faf4fa;
+}
+.container{
+    max-width: 1280px;
+    margin: 10px auto;
+    font-family: Duepuntozero;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #884583;
+    padding: 0 15px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+a{
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    background-color: #d495d0;
+}
+input{
+    width: 230px;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    border:1px solid white;
+    padding: 0 10px;
+}
+input:focus{
+    width: 260px;
+}
+button{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #6f2170;
+    border:1px solid white;
+    color:white;
+}
+.logo{
+    background-color: #ffffff;
+    margin-bottom: 15px;
+}
+.new{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+}
+.col{
+    border: 1px solid #dcdada;
+    width:100%;
+    margin: 15px 15px;
+    margin-left: -1px;
+    height: 290px;
+    overflow: hidden;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    overflow: hidden;
+}
+.img img{
+    transition: 2s;
+    
+}
+.img img:hover{
+    transform: scale(1.5);
+}
+.col .img img{
+    width: 180px;
+    height: 180px;
+}
+.price{
+    text-align: center;
+    line-height: 35px;
+    transition: 3s;
+    background-color: white;
+    opacity: 0.8;
+    height: 100px;
+}
+.col:hover .price{
+    transform: translate(0,-50px);
+}
+.price:hover{
+    color:red;
+}
+s{
+    color:#363536;
+    font-size: 20px;
+}
+p{
+    color:#bc0374;
+    font-size: 25px;
+}
+.banner img{
+    width: 100%;
+    margin-top: 20px;
+}
+footer{
+    background-color: #884583;
+    text-align: center;
+    display: block;
+    padding: 15px 0;
+    
+}
+footer p{
+    color:white;
+}

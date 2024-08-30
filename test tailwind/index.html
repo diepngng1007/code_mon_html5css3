@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo web</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black ">
+   
+    <div class="container mx-auto">
+        <div class="xl:items-center xl:flex xl:justify-between header">
+            <div class="xl:items-center header_left xl:flex">
+                <div class="">
+                    <img src="./imgs/dog-removebg-preview.png" alt="" class="w-[180px]">
+                </div>
+                <div class="ml-5 xl:relative">
+                   
+                    <input type="text" placeholder="Bạn muốn tìm truyện gì" class="xl:w-[420px] xl:h-[50px] rounded-3xl bg-[#3a3b3c] xl:placeholder:p-5">
+                    
+                    <button class="xl:absolute xl:right-[2%] xl:top-[17%]">  
+                        <img src="./imgs/search-icon-removebg-preview.png" alt="" class="w-[35px] ">
+                    </button>
+                </div>
+            </div>
+            <div class="text-white header_right">
+                <button class="mr-5  bg-[#3f94d5] rounded-md w-[120px] h-[45px] font-bold">Đăng ký</button>
+                <button class=" bg-[#3f94d5] rounded-md w-[120px] h-[45px] font-bold">Đăng nhập</button>
+            </div>
+        </div>
+        <div class="text-white menu text-[22px] bg-[#18191a] h-[70px]">
+            <ul class="p-5 xl:flex xl:space-x-7">
+                <li class="xl:hover:bg-[#2e2d2d] h-[35px]"><a href="#">Trang chủ</a></li>
+                <!-- menu cấp 2 -->
+                <li class="xl:hover:bg-[#2e2d2d] h-[35px] xl:relative group">
+                    <a href="#">Thể loại +</a>
+                    <ul class="xl:px-5 sub-menu hidden group-hover:block absolute top-[calc(100%+20px)] left-5 bg-[#18191a] before:content-[''] before:absolute before:top-[-20px] before:left-0 before:w-full before:h-5 before:bg-red-500">
+                        <li ><a href="#">Action</a></li>
+                        <li ><a href="#">Anime</a></li>
+                        <li ><a href="#">Drama</a></li>
+                        <li ><a href="#">Mafia</a></li>
+                        <li ><a href="#">Seinen</a></li> 
+                    </ul> nó đệm cđg vào ul con í lú vãi
+             để tôi cho bà hieru hơn về before và after nhé
+                    <!-- à có 1 điều để tạo ra 1 thẻ ảo before hoặc after thì phải có content nha content chính là cái value đấy ví dụ như chữ
+                    xếp hạng ở dưới
+                    -->
+
+                </li >
+                <style>
+                    li{
+                        position: relative;
+                    }
+                    li::before{
+                        content: 'day la after'; 
+                        position: absolute;
+                        height: 100%;
+                        z-index: 100;
+                    }
+                    li::after{
+                        content: 'day la after'; 
+                        position: absolute;
+                        /* ví dụ lúc này height đã đạt 100% của thẻ cha chính là thẻ ở trên nó sẽ cộng thêm 100px nữa*/
+                        height: calc(100% +100px);
+                        z-index: 100;
+                    }
+                    /* calc là tính toán thôi không có gì khó hiểu */
+                    /* nó giống như tạo 1 thẻ div ảo vậy ấy y hệt như vậy và cái thằng before này nó có thể set height được để làm background 
+                 cho mỗi thẻ*/ 
+                </style> 
+                <li  class="xl:hover:bg-[#2e2d2d] h-[35px]"> day la after  <a href="#">Xếp hạng</a>  day la after
+                 </li>
+                <li class="xl:hover:bg-[#2e2d2d] h-[35px]"><a href="#">Tìm truyện</a></li>
+                <li class="xl:hover:bg-[#2e2d2d] h-[35px]"><a href="#">Lịch sử</a></li>
+                <li class="xl:hover:bg-[#2e2d2d] h-[35px]"><a href="#">Theo dõi</a></li>
+                <li class="xl:hover:bg-[#2e2d2d] h-[35px]"><a href="#">Thảo luận</a></li>
+            </ul>
+        </div>
+    </div> 
+</body>
+
+<!-- v thật thằng trong truyện nó có dùng pading a nhưng nó thêm lineheight cho thuộc tính li -->
+
+</html>

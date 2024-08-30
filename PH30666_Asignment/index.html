@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nước hoa</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="navbar">
+                <ul>
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="#">Nước hoa nữ</a></li>
+                    <li><a href="#">Nước hoa nam</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <form action="">
+                    <input type="search" required>
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+        <div class="logo">
+            <canvas id="can" style="width: 1280px;height:150px;"></canvas>
+        </div>
+        <div class="new">
+            <div class="row">
+                <div class="col">
+                    <div class="img">
+                        <img src="./img/product-img2.jpg" alt="">
+                    </div>
+                    <div class="price">
+                        <h3>Viktor & Rolf Bon Bon</h3>
+                        <p><s>445.000</s> 335.000</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img">
+                        <img src="./img/product-img1.jpg" alt="">
+                    </div>
+                    <div class="price">
+                        <h3>Very Sexy Platinum for Him</h3>
+                        <p>1.295.000</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img">
+                        <img src="./img/product-img2.jpg" alt="">
+                    </div>
+                    <div class="price">
+                        <h3>Viktor & Rolf Bon Bon</h3>
+                        <p>445.000</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img">
+                        <img src="./img/product-img3.jpg" alt="">
+                    </div>
+                    <div class="price">
+                        <h3>La Nuit Tresor for women</h3>
+                        <p>1.195.000</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img">
+                        <img src="./img/product-img2.jpg" alt="">
+                    </div>
+                    <div class="price">
+                        <h3>Viktor & Rolf Bon Bon</h3>
+                        <p>445.000</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img">
+                        <img src="./img/product-img1.jpg" alt="">
+                    </div>
+                    <div class="price">
+                        <h3>Very Sexy Platinum for Him</h3>
+                        <p><s>445.000</s> 335.000</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img">
+                        <img src="./img/product-img2.jpg" alt="">
+                    </div>
+                    <div class="price">
+                        <h3>Viktor & Rolf Bon Bon</h3>
+                        <p>445.000</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img">
+                        <img src="./img/product-img3.jpg" alt="">
+                    </div>
+                    <div class="price">
+                        <h3>La Nuit Tresor for women</h3>
+                        <p>1.195.000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <img src="./img/banner.jpg" alt="">
+        </div>
+        <footer>
+            <p>Copyright © 2015 Design by Ochna</p>
+        </footer>
+    </div>
+    <script>
+        var canvas = document.getElementById("can");
+         //khai báo context
+        var ctx = canvas.getContext("2d");
+         // Vẽ hình ellipse lớn với màu nền tím nhạt
+            ctx.beginPath();
+            ctx.ellipse(150, 80, 55, 20, Math.PI/2, 0, 2*Math.PI);
+            ctx.fillStyle = "#bd8cbf"; // độ trong suốt là 0.5
+            ctx.fill();
+
+        // Vẽ hình ellipse nhỏ trong hình ellipse lớn với màu nền tím đậm
+            ctx.beginPath();
+            ctx.ellipse(140, 80, 30, 10, Math.PI/2, 0,Math.PI*2);
+            ctx.fillStyle = "#f28dd7"; // độ trong suốt là 1 (không trong suốt)
+            ctx.fill();
+
+            ctx.fillStyle = "black";
+            ctx.font = "bold 12px Duepuntozero";
+            ctx.fillText("my perfume", 130, 85);
+    </script>
+</body>
+</html

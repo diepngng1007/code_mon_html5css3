@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="./css/signUp.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex min-h-screen flex-col justify-between items-center p-10 font-sans">
+    <div class="container mb-[300px] mt-[70px] w-[400px] max-w-full">
+        <div class="font-bold text-[25px] text-center">
+            <h5>Fudo<span class="text-red-500">.</span></h5>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="text-center text-blue-900 font-semibold">
+            <p>Welcome to Fudo</p>
+        </div>
+        <div class="text-center font-bold text-[32px]">
+            <h2>Create Account</h2>
+        </div>
+        <form action="" class="mt-[50px]">
+            <div class="">
+                <label for="" class="text-[16px] leading-10 font-semibold">Email</label> <br>
+                <input type="email" placeholder="John.snow@gmail.com" required id="email" class="border-solid border-2 border-sky-400 w-full h-[55px] rounded-md placeholder:p-3">
+            </div>
+            <span id="check1"></span>
+            <div class="">
+                <label for="" class="text-[16px] leading-10 font-semibold">Fullname</label> <br>
+                <input type="text" placeholder="John.snow" required id="fname" class="border-solid border-2 border-sky-400 w-full h-[55px] rounded-md placeholder:p-3">
+            </div>
+            <span id="check2"></span>
+            <div class="">
+                <label for="" class="text-[16px] leading-10 font-semibold">Password</label> <br>
+                <input type="password" placeholder="*********" required id="pass" class="border-solid border-2 border-sky-400 w-full h-[55px] rounded-md placeholder:p-3">
+            </div>
+            <span id="check3"></span>
+            <div class="">
+                <label for="" class="text-[16px] leading-10 font-semibold">Re-Password</label> <br>
+                <input type="password" placeholder="*********" required id="re_pass" class="border-solid border-2 border-sky-400 w-full h-[55px] rounded-md placeholder:p-3">
+            </div>
+            <span id="check4"></span>
+            <div class="bg-[#37A9CD] w-full h-[55px] text-center text-white rounded-md pt-4 mt-[25px]">
+                <button id="sumb">Create Now</button>
+            </div>
+        </form>
+    </div>
+    <script src="./SignUp.js">
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+@import url(//db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=BeaufortforLOL-Bold);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'BeaufortforLOL-Bold';
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.logo{
+    text-align: center;
+    margin-top: 15px;
+}
+.menu{
+    margin-left: 420px;
+    margin-top: 18px;
+}
+li{
+    display: inline-block;
+    
+}
+a{
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+.news{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.news-content{
+    width: 437px;
+    display: flex;
+    
+}
+.news-content img{
+    padding: 0 12px;
+    width: 150px;
+}
+h5{
+    height: 30px;
+}
+h4{
+    height: 38px;
+}
+.h5-one h5{
+    color:#AEAEAE;
+}
+.p p{
+    font-size: 14px;
+}
+.next-news-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 12px;
+}
+.items-two img{
+    width: 435px;
+}
+.items-two{
+    padding: 16px 0;
+}
+.items-one{
+    display: flex;
+    padding-top: 16px;
+  
+}
+.items-one img{
+    width: 480px;
+}
+.text{
+    padding: 0 25px;
+    margin-top:45px ;
+}
+.more{
+    display: flex;
+    margin-left: 800px;
+    margin-top: 15px;
+}
+.arrow{
+    padding: 0 15px;
+}
+.text-between{
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    font-size: 10px;
+    padding-top:12px ;
+    margin: 0 12px;
+    margin-bottom: 20px;
+}
+.sub-banner-two img{
+    width: 100%;
+}
+.sub-banner-two{
+    margin: 0 12px;
+}
+hr{
+    border: #dbd9d9 1px solid;
+    width: 97%;
+}
+.h5-two h5{
+    color: #0BE7E7 ;
+}
+span{
+    color: #AEAEAE;
+}
+a:hover{
+    text-decoration: underline;
+}
+.post:hover{
+    text-decoration: underline;
+}
+.text:hover{
+    text-decoration: underline;
+}
+.fooster{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    background-color: #0E4C67;
+    height: 70px;
+}
+h6{
+    color:white;
+    font-size: 15px;
+}
+input{
+    width: 195px;
+    height: 40px;
+    background-color: #0E4C67;
+    border: #FFA800 1px solid;
+    
+}
+::placeholder{
+    color: white;
+    padding: 0 12px;
+}
+button{
+    background-color: #FFA800;
+    color: white;
+    border-radius: 3px;
+    height: 40px;
+    width: 100px;
+    border: #FFA800 1px solid;
+    margin: 0 12px;
+    font-size: 12px;
+}
+/* @media only screen and (max-width: 600px) {
+    .news{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        width: 100%;
+    }
+    
+}
+@media only screen and (max-width: 1024px) {
+
+} */

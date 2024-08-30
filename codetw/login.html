@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex justify-between flex-col items-center p-10 font-sans">
+    <div class="form_container w-[400px] max-w-full mt-[50px] mb-[50px]">
+        <div class="text-center font-bold text-[25px] pb-[110px]">
+            <span>Fuho<span class="text-red-500">.</span></span>
+        </div>
+        <div class="text-center">
+            <span class="text-[16px] font-semibold text-blue-900">Welcome back</span>
+            <h1 class="font-extrabold text-[32px]">Login to your account</h1>
+        </div>
+        <form class="mt-[50px]">
+            <div class="leading-10">
+                <label class="font-semibold">Email</label> <br>
+            </div>
+            <input type="email" id="email" placeholder="John.snow@gmail.com" class="w-full h-[55px] border-2 border-solid border-sky-400 rounded-md placeholder:p-3"></input><br>
+            <span id="check1"></span>
+            <div class="leading-10">
+                <label class="font-semibold">Password</label><br>
+            </div>
+            <input type="password" id="pass" placeholder="*********" class="w-full h-[55px] border-2 border-solid border-sky-400 rounded-md placeholder:p-3"></input>
+            <span id="check2"></span>
+            <div class="bg-[#37A9CD] w-full h-[55px] text-center text-white pt-3 rounded-md mt-[28px]"><button type="submit" id="login">Login now</button></div>
+            <div class="bg-[#2D3748] h-[55px] text-white rounded-md mt-[20px]">
+                <button type="button" class="flex items-center">
+                    <img src="./imgs/iconfinder_Google_1298745 1.png" class="pl-[100px] pt-4 w-[120px]">
+                    <p class="pl-2 pt-4">Or sign-in with google</p>
+                </button>
+            </div>
+        </form>
+        <div class="text-center font-bold text-[16px] mt-[30px]">
+            <div class="text-[#37A9CD]">
+                <a href="">Forgot password?</a>
+            </div>
+            <div class="">
+                <span class="text-gray-500">Dont have an account? <a href="" class="text-[#37A9CD]">Join free today</a></span>
+            </div>
+        </div>
+    </div>
+   <script src="./SignIn.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .header_right.active {
+            display: block;
+        }
+        #messeges::placeholder{
+            position: absolute;
+            top: 5%;
+            left: 20x;
+        }
+    </style>
+    <title>Home</title>
+</head>
+<body>
+    <div class="container m-auto w-full">
+        <!-- header -->
+        <div class="flex justify-between md:flex md:justify-between pt-5">
+            <div class="font-bold pl-[15px] pt-[10px] text-xl">
+                <h5 class="xl:text-[35px]">Fudo<span class="text-[#F54748]">.</span></h5>
+            </div>
+            <!-- header-left -->
+            <div class="flex items-center mx-0 mr-2">
+                <div class="header_right absolute left-0 bg-red-100 min-h-[60vh] top-[10%] w-full flex items-center px-5 hidden">
+                    <ul class="leading-[50px] flex-col items-center gap-[4vw] text-center mt-[70px]">
+                        <li class="hover:text-[#F54748] font-semibold"><a href="./home.html">Home</a></li>
+                        <li class="hover:text-[#F54748] font-semibold"><a href="./product.html">Products</a></li>
+                        <li class="hover:text-[#F54748] font-semibold"><a href="./product.html">About Us</a></li>
+                        <li class="hover:text-[#F54748] font-semibold"><a href="./detail.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="hidden md:block xl:block">
+                    <ul class="flex ">
+                        <li class="hover:text-[#F54748] pl-4 font-semibold"><a href="./home.html">Home</a></li>
+                        <li class="hover:text-[#F54748] pl-4 font-semibold"><a href="./product.html">Products</a></li>
+                        <li class="hover:text-[#F54748] pl-4 font-semibold"><a href="./product.html">About Us</a></li>
+                        <li class="hover:text-[#F54748] pl-4 font-semibold"><a href="./detail.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="flex mt-0 justify-between items-center gap-2 pl-4">
+                    <div class="mt-0.5">
+                        <a href="./login.html">
+                            <button class="px-3 py-2 bg-white w-[84px] h-[42px] rounded-md text-black border-[#F54748] border-solid border-2 cursor-pointer text-[#F54748]">Sign In</button>
+                        </a>
+                        
+                    </div>
+                    <div class="mt-0.5">
+                        <a href="./signUp.html">
+                            <button class="px-3 py-2 bg-[#F54748] w-[84px] h-[42px] rounded-md text-white cursor-pointer">Sign Up</button>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+                <i class="fa-solid fa-bars text-3xl cursor-pointer ml-2 block md:hidden xl:hidden"></i>
+            </div>
+            <!-- header-right -->
+        </div>
+        <div class="md:flex md:justify-between">
+            <div class="mt-[50px] pl-[15px] md:mt-[80px]">
+                <div class="w-[160px] h-[42px] bg-[#FFEEEE] text-red-500 text-center pt-[8px] rounded-md cursor-pointer">
+                    <b><p>Quality Food</p></b>
+                </div>
+                <br>
+                <div class="text-[35px] xl:text-[55px]">
+                    <strong><strong>Fastest</strong>  <br><strong class="text-[#F54748]"> Delivery</strong><strong> &</strong> <br><strong> Easy </strong><strong class="text-[#F54748]"> Pickup</strong></strong>
+                </div>
+                <div class="text-[15px] text-[#5D5D5D] mt-[20px]">
+                    <p>Best cooks and best delivery guys all at your service. Hot tasty food will <br> reach you in 60 minutes.</p>
+                </div>
+                <div class="flex mt-5">
+                    <div>
+                        <input type="text" placeholder="Enter your delivery location" class="w-[250px] h-[50px] border-[#F54748] border-solid border-2 rounded-l-lg cursor-pointer placeholder:pl-3">
+                    </div>
+                    <div>
+                        <button class="bg-[#F54748] text-white w-[105px] h-[50px] rounded-r-lg">Discover</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="mt-[50px]">
+                <img src="./imgs/Images.png" alt="" class="w-[300px] ml-[42px] md:mr-4 md:w-[400px] xl:w-[600px]">
+            </div>
+        </div>
+        <div class="mt-[50px] xl:mt-[60px]">
+            <h2 class="font-bold text-[25px] text-center xl:text-[35px] xl:pb-[18px]">Our Popular Dishes</h2>
+            <div class="text-center text-[12px] text-gray-500 pt-2">
+                <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut <br> labore et dolore magna aliqut enim ad minim </p>
+            </div>
+            
+        </div>
+        <div class="mt-[70px]">
+            <div class="md:grid md:grid-cols-2 md:ml-[35px] md:mb-[35px] xl:grid-cols-3 xl:gap-10 xl:ml-0 xl:mr-[35px]">
+                <div class="">
+                    <img src="./imgs/image 26.png" alt="" class="w-[350px] ml-[18px] rounded-2xl md:w-[420px]">
+                    <div class="p-[20px] font-bold text-[#F54748] xl:text-[18px] hover:underline"> <p>Big and Juicy Wagyu Beef Cheeseburger</p></div>
+                </div>
+                <div class="">
+                    <img src="./imgs/image 26 (1).png" alt="" class="w-[350px] ml-[18px] rounded-2xl md:w-[420px]">
+                    <div class="p-[20px] font-bold text-[#F54748] xl:text-[18px] hover:underline"><p>Fresh Lime Roasted Salmon</p></div>
+                </div>
+                <div class="">
+                    <img src="./imgs/image 26 (2).png" alt="" class="w-[350px] ml-[18px] rounded-2xl md:w-[420px]">
+                    <div class="p-[20px] font-bold text-[#F54748] xl:text-[18px] hover:underline"><p>The Best Easy One Pot Chicken and Rice</p></div>
+                </div>
+            </div>
+            <div class="md:grid md:grid-cols-2 md:ml-[35px] md:mb-[35px] xl:grid-cols-3 xl:gap-10 xl:ml-0 xl:mr-[35px]">
+                <div class="">
+                    <img src="./imgs/image 26 (3).png" alt="" class="w-[350px] ml-[18px] rounded-2xl md:w-[420px]">
+                    <div class="p-[20px] font-bold text-[#F54748] xl:text-[18px] hover:underline"><p>Fresh and Healthy Mixed Mayonnaise </p></div>
+                </div>
+                <div class="">
+                    <img src="./imgs/image 26 (4).png" alt="" class="w-[350px] ml-[18px] rounded-2xl md:w-[420px]">
+                    <div class="p-[20px] font-bold text-[#F54748] xl:text-[18px] hover:underline"><p>The Creamiest Creamy Chicken</p></div>
+                </div>
+                <div class="">
+                    <img src="./imgs/image 26 (5).png" alt="" class="w-[350px] ml-[18px] rounded-2xl md:w-[420px]">
+                    <div class="p-[20px] font-bold text-[#F54748] xl:text-[18px] hover:underline"><p>Fruity Pancake with Orange & Blueberry</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-10">
+            <div class="flex justify-between p-3">
+                <div class="font-bold text-[25px] md:text-[30px]"><h2>Categories</h2></div>
+                <div class="border-solid border-2 border-[#F54748] w-[150px] h-[50px] rounded text-red-500 text-center pt-[10px]"><button>View All Categories</button></div>
+            </div>
+            <div class="grid grid-cols-2 pl-[60px] mt-[50px] md:grid-cols-3 md:pl-[170px] xl:grid-cols-6 xl:p-[50px] xl:gap-[55px]">
+                <div class="mb-[25px]">
+                    <img src="./imgs/rice.png" alt="" class="pb-[28px] xl:w-[120px]">
+                    <p class="pl-4 font-bold leading-10 hover:underline">Breakfast</p>
+                </div>
+                <div class="mb-[25px]">
+                    <img src="./imgs/rau.png" alt="" class="pb-[28px] xl:w-[120px]">
+                    <p class="pl-4 font-bold leading-10 hover:underline">Vegan</p>
+                </div>
+                <div class="mb-[25px]">
+                    <img src="./imgs/meat.png" alt="" class="pb-[28px] xl:w-[120px]">
+                    <p class="pl-4 font-bold leading-10 hover:underline">Meat</p>
+                </div>
+                <div class="mb-[25px]">
+                    <img src="./imgs/ceak.png" alt="" class="pb-[28px] xl:w-[120px]">
+                    <p class="pl-4 font-bold leading-10 hover:underline">Dessert</p>
+                </div>
+                <div class="mb-[25px]">
+                    <img src="./imgs/sanwich.png" alt="" class="pb-[28px] xl:w-[120px]">
+                    <p class="pl-4 font-bold leading-10 hover:underline">Lunch</p>
+                </div>
+                <div class="mb-[25px]">
+                    <img src="./imgs/so.png" alt="" class="pb-[28px] xl:w-[120px]">
+                    <p class="pl-4 font-bold leading-10 hover:underline">Chocolate</p>
+                </div>
+                
+        </div>
+        <div class="mt-10 pl-6 md:pl-[260px] xl:pl-10">
+            <h2 class="text-center font-bold text-[25px] md:text-[30px] pr-[250px] xl:pr-[50pxe]">Contact us</h2>
+            <div class="xl:grid xl:grid-cols-2">
+                <div class="mb-[15px]">
+                    <label class="text-gray-500" for="">NAME</label> <br>
+                    <input class="border-solid border-2 border-[#000000 10%] w-[335px] h-[50px] rounded pl-[15px] md:w-[500px] xl:w-[580px] xl:h-[60px]" type="text" placeholder="Enter your name..." >
+                    <br>
+                </div>
+                <div class="mb-[15px]">
+                    <label class="text-gray-500"  for="">EMAIL ADDRESS</label> <br>
+                    <input class="border-solid border-2 border-[#000000 10%] w-[335px] h-[50px] rounded pl-[15px] md:w-[500px] xl:w-[580px] xl:h-[60px]" type="email" placeholder="Your email address...">
+                    <br>
+                </div>
+                <div class="mb-[15px]">
+                    <label class="text-gray-500"  for="">SUBJECT</label> <br>
+                    <input class="border-solid border-2 border-[#000000 10%] w-[335px] h-[50px] rounded pl-[15px] md:w-[500px] xl:w-[580px] xl:h-[60px]" type="text" placeholder="Enter subject...">
+                    <br>
+                    </div>     
+                <div class="mb-[15px]">
+                    <label class="text-gray-500" for="">ENQUIRY TYPE</label> <br>
+                    <select class="border-solid border-2 border-[#000000 10%] w-[335px] h-[50px] text-gray-400 rounded pl-[15px] md:w-[500px] xl:w-[580px] xl:h-[60px]" name="" >
+                        <option value="">Advertising</option>
+                        <option value="">Advertising 1</option>
+                        <option value="">Advertising 2</option>
+                    </select>
+                </div>
+                </div>
+                  
+            </div>
+            <div class="pl-6 md:pl-[260px] xl:pl-10"> 
+                <div class="">
+                    <label for="text-gray-500">MESSAGES</label> <br>
+                    <input type="text" placeholder="Enter your messages..." class="border-solid border-2 border-[#000000 10%] w-[335px] h-[140px] rounded pl-[15px] md:w-[500px] xl:w-[1200px] xl:h-[180px]" id="messeges">
+                </div>
+                <div class="bg-black w-[150px] h-[50px] text-white rounded text-center pt-3 ml-[90px] mt-[30px] mb-[50px] md:ml-[175px] xl:ml-[525px]">
+                    <button type="submit" required>Submit</button>
+                </div>
+            
+          
+            </div>
+        </div>
+        <hr>
+        </div>
+        <div class="flex justify-between items-center h-[50px] mt-2 md:h-[80px] md:mt-6 xl:m-6">
+            <div class="font-bold ml-5 text-xl">
+                <h5 class="xl:text-[35px]">Fudo <span class="text-[#F54748]">.</span></h5>
+            </div>
+            <div class="">
+                <ul class="space-x-2 pr-[10px]">
+                    <li class="hover:text-[#F54748] inline-block font-semibold"><a href="./home.html">Home</a></li>
+                    <li class="hover:text-[#F54748] inline-block font-semibold"><a href="./product.html">Products</a></li>
+                    <li class="hover:text-[#F54748] inline-block font-semibold"><a href="./detail.html">About Us</a></li>
+                    <li class="hover:text-[#F54748] inline-block font-semibold"><a href="./home.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./home.js"></script>
+    <script>
+         const clickBars = document.querySelector('.fa-solid');
+        const navbar = document.querySelector('.header_right');
+        console.log(clickBars, navbar);
+        clickBars.addEventListener('click', function() {
+        navbar.classList.toggle('active');
+    });
+        
+    </script>
+</body>
+</html>

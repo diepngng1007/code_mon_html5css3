@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>đề 3</title>
+    <script src="https://fonts.google.com/specimen/Roboto"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .menu.active{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container w-full mx-auto">
+        <div class="flex items-center justify-between">
+            <div class="p-3 xl:pt-8">
+                <img src="./img/logode3.png" alt="">
+            </div>
+            <div class="menu absolute top-[10%] left-0 bg-pink-200 w-full h-[60%] px-[150px] text-center py-[60px] leading-[50px] hidden">
+                <ul>
+                    <li><a href="#">MAIN</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#">PROJECTS</a></li>
+                    <li><a href="#">CERTIFICATIONS</a></li>
+                    <li><a href="#">CONTACTS</a></li>
+                </ul>
+            </div>
+            <div class="hidden md:block xl:block md:pr-3">
+                <ul class="md:space-x-5">
+                    <li class="inline-block hover:underline"><a href="#">MAIN</a></li>
+                    <li class="inline-block hover:underline"><a href="#">GALLERY</a></li>
+                    <li class="inline-block hover:underline"><a href="#">PROJECTS</a></li>
+                    <li class="inline-block hover:underline"><a href="#">CERTIFICATIONS</a></li>
+                    <li class="inline-block hover:underline"><a href="#">CONTACTS</a></li>
+                </ul>
+            </div>
+            <img src="./img/Vector.png" alt="" class="bars w-[26px] h-[20px] m-5 block md:hidden xl:hidden">
+        </div>
+        <div class="p-3 mt-6 ">
+            <img src="./img/home1.png" alt="" class="xl:w-full">
+        </div>
+        <div class=" text-center text-[25px] mb-6 xl:text-[50px]">
+            <h1 class="text-[#979797]">PHOTO <span class="font-bold text-black">GALLERY</span></h1>
+        </div>
+        <div class="m-3">
+            <div class="grid grid-cols-2 gap-[30px] md:grid md:grid-cols-3 xl:grid xl:grid-cols-4">
+                <div class="pb-4 content-items">
+                    <img src="./img/a1.png" alt="" class="w-[400px]">
+                </div>
+                <div class="pb-4 content-items">
+                    <img src="./img/a2.png" alt="" class="w-[400px]">
+                </div>
+                <div class="pb-4 content-items">
+                    <img src="./img/a3.png" alt="" class="w-[400px]">
+                </div>
+                <div class="content-items ">
+                    <img src="./img/a4.png" alt="" class="w-[400px]">
+                </div>
+                <div class="pb-4 content-items">
+                    <img src="./img/a5.png" alt="" class="w-[400px]">
+                </div>
+                <div class="pb-4 content-items">
+                    <img src="./img/a6.png" alt="" class="w-[400px]">
+                </div>
+                <div class="pb-4 content-items">
+                    <img src="./img/a7.png" alt="" class="w-[400px]">
+                </div>
+                <div class="content-items">
+                    <img src="./img/a8.png" alt="" class="w-[400px]">
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center text-[25px] mb-4 xl:text-[50px]">
+            <h1 class="text-[#979797]">OUR <span class="font-bold text-black">PROJECTS</span></h1>
+        </div>
+        <div class="hidden object md:hidden xl:block xl:m-3">
+            <div class="">
+                <div class="xl:flex xl:mb-10 ">
+                    <div class="img">
+                        <img src="./img/b1.png" alt="" class="xl:w-[1750px]" >
+                    </div>
+                    <div class="pl-10">
+                        <h3 class="xl:text-[#BDBDBD] xl:text-[35px]">Sample Project 1</h3>
+                        <p class="xl:mt-4 xl:leading-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <div class="xl:flex xl:mt-5">
+                            <p class="mr-5">VIEW MORE</p>
+                            <img src="./img/arrow-2-right-long.png" alt="" >
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="xl:flex">
+                        <div class="img">
+                            <img src="./img/b2.png" alt="" class="xl:w-[1750px]">
+                        </div>
+                        <div  class="pl-10">
+                            <h3 class="xl:text-[#BDBDBD] text-[35px]">Sample Project 2</h3>
+                            <p class="xl:mt-4 xl:leading-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <div class="xl:flex xl:mt-5">
+                                <p class="mr-5">VIEW MORE</p>
+                                <img src="./img/arrow-2-right-long.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="m-3 md:flex md:gap-[40px] mb-[110px] xl:hidden">
+            <div class="word">
+                <img src="./img/b1.png" alt="" class="w-full">
+                <h3 class="text-[25px] text-[#BDBDBD] pt-3 pb-2">Sample Project 1</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <div class="flex pt-4 pb-6">
+                    <p class="text-[15px] pr-5">VIEW MORE</p>
+                    <img src="./img/arrow-2-right-long.png" alt="">
+                </div>
+            </div>
+            <div class="word">
+                <img src="./img/b2.png" alt="" class="w-full">
+                <h3  class="text-[25px] text-[#BDBDBD] pt-3 pb-2">Sample Project 2</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <div class="flex pt-4">
+                    <p class="text-[15px] pr-5">VIEW MORE</p>
+                    <img src="./img/arrow-2-right-long.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="bg-black m-3 h-[110px] md:flex md:justify-between md:items-center xl:h-[90px]">
+            <div class="flex items-center justify-center py-[20px] md:px-[30px]">
+                <img src="./img/logode31.png" alt="">
+            </div>
+            <div class="text-center text-gray-300 text-[12px] md:pr-5 xl:text-[20px]">
+                <p>© 2021 All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        const Menu = document.querySelector('.menu');
+        const Bars = document.querySelector('.bars');
+        Bars.addEventListener('click', () =>{
+            Menu.classList.toggle('active');
+        })
+    </script>
+</body>
+</html>
